@@ -76,7 +76,7 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>Don't worry though, you have time and help.</h2>
                             </header>
-                            <p>Included in this gift is domain/site hosting for the next 5 years as well as a consultation and some training on working with it!</p>
+                            <p>Included in this gift is domain/site hosting for the next 5 years and some help getting things moving!</p>
                         </div>
                     </section>
                 </div>

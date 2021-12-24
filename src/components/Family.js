@@ -9,7 +9,9 @@ class Family extends React.Component {
     const familyList = new Map([
       ['Nana', 'Grandma'],
       ['Nick', 'Uncle'],
-      ['Eva', 'Me!'],
+      ['Nicklepickle', 'Unclepickle'],
+      ['Eva', 'me. Oh my!'],
+      ['Ethan', 'Dad'],
       ['Laura', 'Mom'],
       ['Peggy', 'Great Grandama!'],
       ['Sammy', 'Brother'],
@@ -40,9 +42,10 @@ class Family extends React.Component {
       <section id="contact">
         <div className="inner">
           <section>
+            <h2>Are you family? Type a name and find out...</h2>
             <form onSubmit={this.handleSubmit}>
               <div className="field first">
-                <label htmlFor="name">First</label>
+                <label htmlFor="name">First name</label>
                 <input
                   type="text"
                   name="firstName"
