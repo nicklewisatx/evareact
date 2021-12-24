@@ -28,6 +28,20 @@ class HomeIndex extends React.Component {
                 <Banner />
 
                 <div id="main">
+                    <section>
+                    <div class="inner">
+                    <h2 id="content">Included in this gift:</h2>
+                    <ul>
+                        <li>A starter site built on some crazy tech</li>
+                        <li>Getting you connected to this site (ssh keys, git accounts... hacker stuff...)</li>
+                        <li>Several hours of consultation and training with Uncle Nicklepickle on making this site your own</li>
+                        <li>5 years of domain hosting</li>
+                        <li>5 years of infrastructure hosting</li>
+                        <li>An onging support package based on love</li>
+                    </ul>
+                    <bold>Disclaimer: Learning how to <em>code</em> not included.</bold>
+                    </div>
+                    </section>
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
@@ -70,14 +84,6 @@ class HomeIndex extends React.Component {
                                 <p>We can set that up too!</p>
                             </header>
                         </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Don't worry though, you have time and help.</h2>
-                            </header>
-                            <p>Included in this gift is domain/site hosting for the next 5 years and some help getting things moving!</p>
-                        </div>
                     </section>
                 </div>
 

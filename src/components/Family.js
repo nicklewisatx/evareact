@@ -60,9 +60,9 @@ class Family extends React.Component {
             <section>
               <div className="contact-method">
                 <span className="icon alt fa-envelope"></span>
-                <h3>Results</h3>
+                <h3>Current status</h3>
                 <span>
-                  Quantum computer processing "{this.state.firstName}"...
+                  Quantum computer processing...
                 </span>
               </div>
             </section>
