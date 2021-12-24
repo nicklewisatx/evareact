@@ -25,6 +25,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@netlify/plugin-gatsby": "^2.0.0-zz-beta.0",
     "prettier": "^1.19.1"
   },
   "repository": {
