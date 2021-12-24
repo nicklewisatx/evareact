@@ -62,9 +62,8 @@ class Family extends React.Component {
                 <span className="icon alt fa-envelope"></span>
                 <h3>Results</h3>
                 <span>
-                  You've entered: {this.state.firstName} {this.state.lastName}
+                  Quantum computer processing "{this.state.firstName}"...
                 </span>
-                <h3>{this.state.familyMessage}</h3>
               </div>
             </section>
           </section>
